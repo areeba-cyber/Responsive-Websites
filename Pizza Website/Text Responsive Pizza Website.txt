@@ -13,7 +13,7 @@ Crispy And <br> Delicious Pizzas
 .home__description
 Order the best pizzas to end your hunger 
 and make your family moments more 
-memorable, place your order now.
+memorable, place your order now..
 
 .button
 Order Pizza Now
