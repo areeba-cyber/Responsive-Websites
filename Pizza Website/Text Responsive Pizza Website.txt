@@ -7,7 +7,7 @@ Home - About Us - Popular - Products - Contact
 
 
 ========== HOME ==========
-.home__title
+.home__titles
 Crispy And <br> Delicious Pizzas
 
 .home__description
