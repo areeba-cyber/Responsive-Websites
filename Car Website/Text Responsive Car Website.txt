@@ -93,7 +93,7 @@ SEND EMAIL
 .footer__logo
 AVENTADOR
 
-.footer__linksss
+.footer__linksssss
 Privacy & Legal
 Contact
 Locations

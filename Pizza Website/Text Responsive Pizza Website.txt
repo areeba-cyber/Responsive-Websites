@@ -8,7 +8,7 @@ Home - About Us - Popular - Products - Contact
 
 ========== HOME ==========
 .home__titles
-Crispy And <br> Delicious Pizzass
+Crispy And <br> Delicious Pizzassss
 
 .home__description
 Order the best pizzas to end your hunger 
