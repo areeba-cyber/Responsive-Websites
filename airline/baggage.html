@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarLift Airways</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/ico" href="images/favicon.png">
+</head>
+
+<body>
+  <header id="head2">
+    <div class="logo">
+      <img src="images/logo.png" alt="Library Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="booking.html">Book Flight</a></li>
+        <li><a href="check-in.html">Check-In</a></li>
+        <li><a href="updatebooking.html">Update</a></li>
+        <li><a href="baggage.html">Baggage Claim</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="records.html">Records</a></li>
+      </ul>
+    </nav>
+    <div class="logo2">
+      <img src="images/login-logo.png" alt="Login Logo">
+    </div>
+  </header>
+
+  <section class="submit3">
+    <div class="container">
+      <form id="baggage-claim-form" action="baggage.php" method="POST">
+        <h2>Baggage Claim</h2>
+        <label for="passenger-name">Passenger Name:</label>
+        <input type="text" id="passenger-name" name="passenger-name" placeholder="Your Full Name" required>
+
+        <label for="flight-details">Flight Details:</label>
+        <input type="text" id="flight-details" name="flight-details" placeholder="Your Flight Details" required>
+
+        <label for="baggage-description">Baggage Description:</label>
+        <input type="text" id="baggage-description" name="baggage-description"
+          placeholder="Description of Lost or Damaged Baggage" required>
+
+        <label for="baggage-tag">Baggage Tag Number:</label>
+        <input type="text" id="baggage-tag" name="baggage-tag" placeholder="Your Baggage Tag Number" required>
+
+        <label for="incident-date">Date and Time of Incident:</label>
+        <input type="datetime-local" id="incident-date" name="incident-date" required>
+
+        <label for="compensation">Compensation Preference:</label>
+        <select id="compensation" name="compensation" required>
+          <option value="refund">Refund</option>
+          <option value="voucher">Voucher</option>
+          <option value="replacement">Replacement</option>
+        </select>
+
+        <button type="submit">Submit Claim</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="images/logo.png" alt="Logo" height="100px">
+      </div>
+      <br /><br />
+      <nav class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="booking.html">Book Flight</a>
+        <a href="check-in.html">Check-In</a>
+        <a href="baggage.html">Baggage Claim</a>
+        <a href="membership.html">Membership</a>
+        <a href="career.html">Career</a>
+        <a href="feedback.html">Feedback</a>
+      </nav>
+      <div class="footer-social">
+        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <p class="footer-text">&copy; 2023 Library. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
