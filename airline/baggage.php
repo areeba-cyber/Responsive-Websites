@@ -11,6 +11,7 @@ $baggage_tag = $_POST['baggage-tag'];
 $incident_date = $_POST['incident-date'];
 $compensation = $_POST['compensation'];
 
+
 // Prepare and execute SQL statement
 $sql = "INSERT INTO baggage (Passenger_Name, Flight_Details, Baggage_Description, Baggage_Tag, Incident_Date, Compensation)
         VALUES ('$passenger_name', '$flight_details', '$baggage_description', '$baggage_tag', '$incident_date', '$compensation')";
